@@ -3,3 +3,8 @@
 - resize text with media query
 - add zigzag and social hrefs
 - test out
+- make and add full plan
+- slide pictures
+
+
+------ mobile done
