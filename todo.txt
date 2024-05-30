@@ -4,7 +4,7 @@
 - make and add full plan
 - slide pictures
 - pakoreguot tekstus ir ju fontus
-
+- padaryt registravimosi forma
 
 ------ mobile done
 
