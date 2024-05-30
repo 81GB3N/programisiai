@@ -1241,17 +1241,21 @@ footer .container{
      left: -40px; */
      padding: 20px;
      padding-left: -10px;
+     position: relative;
+     left: 15px;
 }
 
 header{
      padding: 0;
 }
 
-/* .about-controls{
-     display: flex;
-     justify-content: space-between;
-     flex-direction: ;
-} */
+.about-controls{
+     /* display: flex;
+     justify-content: start;
+     align-items: center; */
+     position: relative;
+     left: -10px;
+}
 
 .col-md-12{
      padding-left: 30px;
