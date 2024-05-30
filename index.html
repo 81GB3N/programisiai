@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Programišiai</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-      <script src="js/main.js" defer></script>
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <!-- <div class="header">
+
+<head>
+
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Programišiai</title>
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- icon -->
+   <link rel="icon" href="icon.png" />
+   <script src="js/main.js" defer></script>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img class="resize" src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+   <!-- header -->
+   <!-- <div class="header">
          <div class="container-fluid">
             <div class="row d_flex">
                <div class=" col-md-2 col-sm-3 col logo_section">
@@ -71,228 +66,251 @@
             </div>
          </div>
       </div>  -->
-      <div class="full_bg">
-         <div class="slider_main">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-12">
-                     <!-- carousel code -->
-                     <div id="carouselExampleIndicators" class="carousel slide">
-                        <ol class="carousel-indicators">
-                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                           <!-- first slide -->
-                           <div class="carousel-item active">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div  class="col-md-5">
-                                       <div class="board">
-                                          <i><img src="images/top_icon.png" alt="#"/></i>
-                                          <h3>
-                                             Tapk<br> Programišiumi<br> Ir tu
-                                          </h3>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                       <div class="banner_img">
-                                          <figure><img class="img_responsive" src="images/banner_img.png"></figure>
-                                       </div>
+   <div class="full_bg">
+      <div class="slider_main">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <!-- carousel code -->
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <!-- first slide -->
+                        <div class="carousel-item active">
+                           <div class="carousel-caption relative">
+                              <div class="row d_flex">
+                                 <div class="col-md-5">
+                                    <div class="board">
+                                       <i><img class="resize" src="images/top_icon.png" alt="#" /></i>
+                                       <h3>
+                                          Tapk<br> Programišiumi<br> Ir tu
+                                       </h3>
                                     </div>
                                  </div>
-                              </div>
-                           </div>
-                           <!-- second slide -->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div  class="col-md-5">
-                                       <div class="board">
-                                          <i><img src="images/top_icon.png" alt="#"/></i>
-                                          <h3>
-                                             Patirk<br> Kūrimo<br> Džiaugsmą
-                                          </h3>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                       <div class="banner_img">
-                                          <figure><img class="img_responsive" src="images/banner_img.png"></figure>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- third slide-->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div  class="col-md-5">
-                                       <div class="board">
-                                          <i><img src="images/top_icon.png" alt="#"/></i>
-                                          <h3>
-                                             Surask<br> Bendraminčių
-                                          </h3>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                       <div class="banner_img">
-                                          <figure><img class="img_responsive" src="images/banner_img.png"></figure>
-                                       </div>
+                                 <div class="col-md-7">
+                                    <div class="banner_img">
+                                       <figure><img class="img_responsive resize" src="images/banner_img.png"></figure>
                                     </div>
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="about-controls">
+                        <!-- second slide -->
+                        <div class="carousel-item">
+                           <div class="carousel-caption relative">
+                              <div class="row d_flex">
+                                 <div class="col-md-5">
+                                    <div class="board">
+                                       <i><img class="resize" src="images/top_icon.png" alt="#" /></i>
+                                       <h3>
+                                          Patirk<br> Kūrimo<br> Džiaugsmą
+                                       </h3>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-7">
+                                    <div class="banner_img">
+                                       <figure><img class="img_responsive resize" src="images/banner_img.png"></figure>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- third slide-->
+                        <div class="carousel-item">
+                           <div class="carousel-caption relative">
+                              <div class="row d_flex">
+                                 <div class="col-md-5">
+                                    <div class="board">
+                                       <i><img class="resize" src="images/top_icon.png" alt="#" /></i>
+                                       <h3>
+                                          Atrask<br> Bendraminčių
+                                       </h3>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-7">
+                                    <div class="banner_img">
+                                       <figure><img class="img_responsive resize" src="images/banner_img.png"></figure>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="about-controls">
                         <div class="link_btn_about">
-                           <a class="read_more_about" href="#">Daugiau   <span></span></a>
+                           <a class="read_more_about" href="#">Daugiau <span></span></a>
                         </div>
                         <!-- controls -->
                         <div class="controls">
-                           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                           <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                           <span class="sr-only">Kitas</span>
+                           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                              data-slide="prev">
+                              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                              <span class="sr-only">Kitas</span>
                            </a>
-                           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                           <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                           <span class="sr-only">Buvęs</span>
+                           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                              data-slide="next">
+                              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                              <span class="sr-only">Buvęs</span>
                            </a>
                         </div>
                      </div>
-                     </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end banner -->
-      <!-- our class -->
-      <div class="class">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Programišių vedėjai</h2>
-                  </div>
+   </div>
+   <!-- end banner -->
+   <!-- our class -->
+   <div class="class">
+      <div class="container vedejai">
+         <div class="row center">
+            <div >
+               <div class="titlepage text_align_center">
+                  <h2>Programišių vedėjai</h2>
                </div>
             </div>
-            <div class="our_description">
-               <div class="margi_bottom">
-                  <div class="class_box blue text_align_center">
-                     <!-- <i><img src="images/class1.png" alt="#"/></i> -->
-                     <h3>Gabrielė Kapačinskaitė</h3>
-                     <i class="picture-container"><img class="our-pictures" src="images/gabr.jpg" alt="#"/></i>
-                     <p><br>Kūrybiškumu ir darbu su vaikais pasižyminti studentė, baigusi programavimo kursus programavimo mokykloje "IDK", šiuo metu studijuojanti verslumą</p>
-                  </div>
+         </div>
+         <div class="our_description">
+            <div class="margi_bottom">
+               <div class="class_box blue text_align_center">
+                  <!-- <i><img src="images/class1.png" alt="#"/></i> -->
+                  <h3>Gabrielė Kapačinskaitė</h3>
+                  <i class="picture-container"><img class="our-pictures resize" src="images/gabr.jpg" alt="#" /></i>
+                  <p><br>Kūribiškumu ir darbu su vaikais pasižyminti studentė, baigusi programavimo kursus NKKM
+                     mokykloje, šiuo metu mokinasi Danijos IB programoje.</p>
                </div>
-               <div class="margi_bottom">
-                  <div class="class_box text_align_center">
-                     <!-- <i><img src="images/class2.png" alt="#"/></i> -->
-                     <h3>Jonas Balukonis</h3>
-                     <i class="picture-container"><img class="our-pictures" src="images/jon.jpg" alt="#"/></i>
-
-                     <p><br>Vilniaus programavimo olimpiados prizininkas, padėjęs atkurti edukacinę svetainę "bebras.org", siekiantis savo žinias perduoti jauniasniems</p>
-                  </div>
+            </div>
+            <div class="margi_bottom">
+               <div class="class_box text_align_center">
+                  <!-- <i><img src="images/class2.png" alt="#"/></i> -->
+                  <h3>Jonas Balukonis</h3>
+                  <i class="picture-container"><img class="our-pictures resize" src="images/jon.jpg" alt="#" /></i>
+                  <p><br>Vilniaus programavimo olimpiados prizininkas, padėjęs atkurti edukacinę svetainę "bebras.org",
+                     siekiantis savo žinias perduoti jauniasniems, dabar besimokinantis Vilniaus licėjuje</p>
                </div>
-               <!-- <div class="col-md-4 margi_bottom">
+            </div>
+            <!-- <div class="col-md-4 margi_bottom">
                   <div class="class_box text_align_center">
                   </div>
                </div> -->
-            </div>
          </div>
       </div>
-      <!-- end our class -->
-      <!-- about -->
-      <div class="about">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-md-6">
-                  <div class="titlepage text_align_left">
-                     <h2>Apie <br>Programišius </h2>
-                     <p>memememe
-                     </p>
-                  </div>
+   </div>
+   <!-- end our class -->
+   <!-- about -->
+   <div class="about">
+      <div class="container-fluid">
+         <div class="row d_flex">
+            <div class="col-md-6">
+               <div class="titlepage text_align_left">
+                  <h2>Apie <br>Programišius </h2>
+                  <p>Esame nauja programavimo stovykla vaikams. Stovyklos metu jūsų vaikai ne tik gerai praleis laiką
+                     prie kompiuterio, bet ir supras, kas tas programavimas ir sužinos, kad kompiuteris nėra skirtas
+                     vien tik žaidimams, tai įrankis padedantis išlaisvinti vaizduotę ir pasitelkus loginį mąstymą viską
+                     įgyvendinti. Žinome ir suprantame, kad mažiems vaikams viskas gali iš pirmo žvilgsnio būti
+                     sudėtinga, bet mes patys tokie buvome, abu pradėjome programavimo pamokas nuo 1-2 klasės.
+                     Nenuvertinkite savo vaikų, mūsų paruošta programa padės jiems suvokti programavimos sintaksės
+                     pagrindus ir paprastus dalykus, kaip word dokumento power point preszentacijos kurimą.
+                  </p>
                </div>
-               <div class="col-md-6">
-                  <div class="picture-class">
+            </div>
+            <div class="col-md-6">
+               <div class="picture-class">
                   <div class="about_img text_align_center">
-                     <figure><img src="images/about.png" alt="#"/></figure>
+                     <figure><img class="resize" src="images/about.png" alt="#" /></figure>
                   </div>
                </div>
             </div>
-            </div>
          </div>
       </div>
-      <!-- end about -->
+   </div>
+   <!-- end about -->
 
-      <!-- shop -->
-      <div class="shop">
-         <div class="shop-background">
+   <!-- shop -->
+   <div class="shop">
+      <div class="shop-background">
          <div class="container-fluid">
             <div class="row d_flex d_grid">
                <div class="col-md-7">
                   <div class="shop_img text_align_center" data-aos="fade-right">
-                     <figure><img class="img_responsive" src="images/shop.webp" alt="#"/></figure>
+                     <figure><img class="img_responsive resize" src="images/shop.webp" alt="#" /></figure>
                   </div>
                </div>
                <div class="col-md-5 order_1_mobile">
                   <div class="titlepage text_align_left ">
                      <h2>Mūsų <br>Stovykla</h2>
-                     <p>čia kažkas parašyta apie mus ir stovyklą
+                     <p>* 8:00 - 9:00 renkamės<br>
+                        * 9:00 - 10:00 Dienos įvadas<br>
+                        * 10:00 - 12:00 mokomės ir programuojam<br>
+                        * 12:00 - 13:00 pietūs<br>
+                        * 13:00 - 15:30 dirbame prie pasirinktų projektų<br>
+                        * 15:30 - 17:30 laikas lauke (ekskursija, parkas).<br>
                      </p>
+                     <p>stovyklos metu išmoksime paprastų kompiuterio įgūdžių, kaip word, powerpoint, excel failų
+                        sukurimas ir jų funkcijos, taip pat sukursime savo internetinį puslapį apie pasirinktą temą, jei
+                        bus noro ir pakankamai priemonių mokysimės kurti trumpametražius filmukus, galiausiai dirbsime
+                        su scratch programėle ir taip susipažinsime su programavimo blokais ir paprastomis komandomis.
+                        Stovyklos pabaigoje bus įteikiami certifikatai ir apdovanojimai</p>
                      <a class="read_more_order" href="zigzag.lt">Užsisakyti!</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      </div>
-      <!-- end shop -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="Kontaktai">
-                     <div class="infoma">
-                        <h3>Kontaktai</h3>
-                        <ul class="conta">
-                           <li><i class="fa fa-map-marker" aria-hidden="true"></i>Kazio Borutos g. 24, Vilnius
-                           </li>
-                           <li><i class="fa fa-phone" aria-hidden="true"></i>Gabrielė Kapačinskaitė <br> +37065568855 </li>
-                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)"> info@programisiai.lt</a></li>
+   </div>
+   <!-- end shop -->
+   <!--  footer -->
+   <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="Kontaktai">
+               <div class="infoma">
+                  <h3>Kontaktai</h3>
+                  <ul class="conta">
+                     <li><i class="fa fa-map-marker" aria-hidden="true"></i>Kazio Borutos g. 24, Vilnius
+                     </li>
+                     <li><i class="fa fa-phone" aria-hidden="true"></i>Gabrielė Kapačinskaitė <br> +37065568855 </li>
+                     <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)">
+                           info@programisiai.lt</a></li>
+                  </ul>
+                  <div class="socials">
+                     <div class="infoma text_align_left">
+                        <ul class="social_icon">
+                           <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.instagram.com/programisiai/"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
                         </ul>
-                        <div class="socials">
-                              <div class="infoma text_align_left">
-                                 <ul class="social_icon">
-                                    <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-                                     <li><a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                    <li><a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                 </ul>
                      </div>
                   </div>
                </div>
             </div>
-                  <div class="rekvizitai-inside">
-                  <h4 class="rekvizitai">Rekvizitai</h4>
-                     <ul class="conta">
-                        <li>Įmonės pavadinimas: Delsi MB</li>
-                        <li>Įmonės kodas: 123456789</li>
-                  </div>
+            
+            <div class="rekvizitai-inside">
+               <!-- <h4 class="rekvizitai">Rekvizitai</h4> -->
+               <ul class="conta rekvizitai-data">
+                  <li>Įmonės pavadinimas: Delsi MB</li>
+                  <li>Įmonės kodas: 306802355</li>
+                  <li>Sąskaitos nr.: LT367044090111436298</li>
+                  <li>Bankas: AB SEB bankas</li>
             </div>
          </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/custom.js"></script>
-      <script>
-         AOS.init();
-      </script>
-   </body>
+      </div>
+   </footer>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <!-- sidebar -->
+   <script src="js/custom.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
 </html>
