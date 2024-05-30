@@ -3,3 +3,4 @@
 - resize text with media query
 - add zigzag and social hrefs
 - test out
+- flex-direction: collumn; on contacts
