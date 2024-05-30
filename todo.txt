@@ -1,10 +1,11 @@
 - same size vedeju pictures
-- add padding to text
-- resize text with media query
 - add zigzag and social hrefs
 - test out
 - make and add full plan
 - slide pictures
+- pakoreguot tekstus ir ju fontus
 
 
 ------ mobile done
+
+--make PC version work
