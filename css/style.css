@@ -559,7 +559,7 @@ ul.email li i {
 }
 
 .our_description{
-     padding: 0 30px;
+     padding: 0 20px;
 display: flex;
 flex-direction: row;
 gap: 20px;
@@ -908,6 +908,7 @@ ul.conta li {
      line-height: 18px;
      display: flex;
      align-items: center;
+     min-width: 200px;
 }
 
 ul.conta li:last-child {
@@ -1168,7 +1169,7 @@ ul.social_icon li a:hover {
 footer{
      border-top: 3px solid #f0390f;
      /* box-shadow: 0 0 100px 0px rgb(240, 57, 15); */
-          padding: 40px;
+          padding: 30px;
      }
 
 .Kontaktai{
@@ -1196,7 +1197,8 @@ li{
 footer .container{
      display: flex;
      flex-direction: row;
-     align-items: center;
+     /* align-items: center; */
+     align-items: start;
      gap: 30px
 }
 
@@ -1299,7 +1301,16 @@ header{
 
      .Kontaktai{
           flex-direction: column;
-          align-items: end;
+          width: 100%;
+          /* align-items: end; */
+     }
+
+     p{
+          width: 100%;
+     }
+
+     .read_more_about{
+          left: 30px;
      }
 
      /* .Kontaktai>.informa {
@@ -1316,6 +1327,7 @@ header{
      .padding-bottom-reduce{
           padding-bottom: 20px;
      }
+
 }
 
 .rekvizitai-data>li{
@@ -1352,4 +1364,25 @@ h3 .slide-text-titles{
 
 .planas-img-padding{
      padding-top: 20px;
+}
+
+.bebras_tag{
+     color: #8b60ff;
+     font-weight: 800;
+}
+.nkkm_tag{
+     color: #f87c60;
+     font-weight: 800;
+}
+
+.vedejai-padding{
+     padding-right: 40px;
+     padding-left: 40px;
+}
+
+@media(min-width: 650px){
+     .rekvizitai-inside{
+          padding-top: 40px;
+     }
+     
 }
