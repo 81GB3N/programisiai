@@ -82,9 +82,9 @@ h2 {
      font-size: 22px;
 }
 
-h3 {
+/* h3 {
      font-size: 18px;
-}
+} */
 
 h4 {
      font-size: 16px
@@ -531,9 +531,20 @@ ul.email li i {
      padding: 40px 50px 75px 50px;
 }
 
+@media(max-width: 500px){
+     .class_box{
+          padding: 20px 20px 20px 20px;
+     }
+ 
+     .musu-stovykla{
+          padding: 20px;
+     }
+
+}
+
 .class_box h3 {
      color: #fff;
-     font-size: 25px;
+     /* font-size: 25px; */
      transition: ease-in all 0.5s;
      font-weight: bold;
      line-height: 22px;
@@ -548,7 +559,7 @@ ul.email li i {
 }
 
 .our_description{
-     padding: 0 40px;
+     padding: 0 30px;
 display: flex;
 flex-direction: row;
 gap: 20px;
@@ -558,7 +569,21 @@ gap: 20px;
      .our_description{
           flex-direction: column;
      }
+
+     .padding{
+          width: 100%;
+     display: flex;
+     justify-content: center;
+     }
+     
+     .panda{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+     }
 }
+
+
 
 .blue {
      background: #3e0bce;
@@ -853,7 +878,7 @@ gap: 20px;
 .infoma h3 {
      text-align: left;
      font-weight: bold;
-     font-size: 30px;
+     /* font-size: 30px; */
      line-height: 24px;
      color: #2c2c2b;
      padding-bottom: 15px;
@@ -1152,7 +1177,8 @@ footer{
      display: flex;
      justify-content: space-between;
      flex-direction: row;
-
+     /* justify-content: center; */
+     /* align-items: center; */
 }
 
 .rekvizitai{
@@ -1257,4 +1283,73 @@ header{
 
 .container .vedejai{
      margin: 0;
+}
+
+.vedeju-vardai{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+
+@media(max-width: 650px){
+     footer .container{
+          flex-direction: column;
+     }
+
+     .Kontaktai{
+          flex-direction: column;
+          align-items: end;
+     }
+
+     /* .Kontaktai>.informa {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: start;
+     } */
+
+     .about_img{
+          padding-bottom: 20px;
+     }
+
+     .padding-bottom-reduce{
+          padding-bottom: 20px;
+     }
+}
+
+.rekvizitai-data>li{
+     padding-bottom: 3px;
+}
+
+h3 .slide-text-titles{
+     font-size: 10px;
+}
+
+/* @media(max-width: 500px){
+     .slide-text-titles{
+          font-size: 5px;
+     }
+} */
+
+.link_btn_about{
+     padding-top: 50px;
+     height: auto;
+}
+
+
+
+.read_more_order{
+     padding: 10px;
+     margin-bottom: 40px;
+}
+
+.padding{
+     padding-right: 20px;
+     padding-left: 20px;
+     
+}
+
+.planas-img-padding{
+     padding-top: 20px;
 }
