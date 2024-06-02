@@ -1232,10 +1232,11 @@ footer .container{
 }
 
 .read_more_about:hover{
-     color: #8da7fd;
+     color: #5712e0;
      font-size: 20px;
      font-weight: 800;
      letter-spacing: 1px;
+     cursor: pointer;
 }
 
 .controls{
@@ -1357,9 +1358,14 @@ h3 .slide-text-titles{
      padding-top: 50px;
      height: auto;
      display: flex;
+     align-items: center;
+     gap: 5px;
 }
 
-
+.uzsisakyk{
+     border-left: 2px solid #f0390f;
+     padding-left: 5px;
+}
 
 .read_more_order{
      padding: 10px;
@@ -1646,3 +1652,33 @@ h3 .slide-text-titles{
      }
 }
 
+.uzsisakykit-text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.uzsisakykit-text span{
+     color: rgb(0, 157, 255);
+     font-size: 1.3rem;
+     font-weight: 900;
+     letter-spacing: 1.5px;
+}
+
+.apie-text span{
+     font-size: 1.1rem;
+     font-weight: 600;
+}
+
+.aprasymo-text span{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.1rem;
+     font-weight: 600;
+}
+
+.data{
+     font-size: 1rem;
+     font-family: 700;
+}
