@@ -1,8 +1,7 @@
 - add zigzag and social hrefs
-- make and add full plan
+- add full plan
 - slide pictures
 - pakoreguot tekstus
 - padaryt registravimosi forma
-- padaryt kad veiktu daugiau mygtukas
-- pridet melyna meskina
+- ig ir fb posts
 

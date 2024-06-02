@@ -1244,7 +1244,8 @@ footer .container{
      padding: 20px;
      padding-left: -10px;
      position: relative;
-     left: 15px;
+     /* left: 50%;
+     translate: -50%; */
 }
 
 header{
@@ -1377,7 +1378,7 @@ h3 .slide-text-titles{
 }
 
 .bebras_tag{
-     color: #8b60ff;
+     color: #574bf7;
      font-weight: 800;
 }
 .nkkm_tag{
@@ -1523,6 +1524,36 @@ h3 .slide-text-titles{
      font-weight: bold;
 }
 
+.uzsakyti-button{
+     all: unset;
+     background-color: rgb(0, 195, 255);
+     color: white;
+     border-radius: 50px 50px;
+     box-shadow: 3px 3px 5px 2px #4b8aff;
+     width: 100%;
+     height: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+}
+
+.aprasymas .read_more_order{
+     color: white;
+     padding: 10px;
+     font-weight: 600;
+     font-size: 1.5rem;
+     margin: 0;
+}
+
+.programa .read_more_order{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     margin: 0;
+}
+
 @media(max-width: 1100px){
      .musu-stovykla{
           display: grid;
@@ -1540,25 +1571,24 @@ h3 .slide-text-titles{
 
      .musu-stovykla-inside{
           grid-row: 2/3;
-          display: grid;
+          /* display: grid;
           grid-template-columns: 100%;
-          grid-template-rows: 100%;
+          grid-template-rows: 100%; */
+          display: flex;
+          flex-direction: column-reverse;
      }
 
      .musu-stovykla-text{
-          grid-row: 1/2;
+          /* grid-row: 1/2; */
           height: 100%;
      }
 
      .planas-img-padding{
           grid-row: 2/3;
-          /* height: 100%; */
+          width: 50%;
           padding: 0;
      }
 
-     img.img_responsive{
-          display: none;
-     }
 
      .musu-stovykla-text, .planas-img-padding{
           display: flex;
@@ -1577,6 +1607,10 @@ h3 .slide-text-titles{
 }
 
 @media(max-width: 900px){
+     .img_responsive{
+          display: none;
+     }
+
      .musu-stovykla-text-inside{
           width: 70%;
      }
@@ -1598,4 +1632,9 @@ h3 .slide-text-titles{
           grid-template-rows: 10% 90%;
      }
 
+     .aprasymas .read_more_order{
+          font-size: 1.2rem;
+          padding: 5px;
+     }
 }
+
