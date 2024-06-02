@@ -1364,7 +1364,9 @@ h3 .slide-text-titles{
 
 .uzsisakyk{
      border-left: 2px solid #f0390f;
+     border-right: 2px solid #f0390f;
      padding-left: 5px;
+     padding-right: 5px;
 }
 
 .read_more_order{
@@ -1681,4 +1683,11 @@ h3 .slide-text-titles{
 .data{
      font-size: 1rem;
      font-family: 700;
+}
+
+.sutartis{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
 }
