@@ -2,11 +2,16 @@ const daugiau = document.querySelector('.read_more_about');
 const about = document.querySelector('.about');
 
 // const about_height = about.clientTop;
+const body = document.querySelector('body');
 
 daugiau.addEventListener('click', function() {
-    about.scrollIntoView({behavior: "smooth"});
+    console.log(about.clientHeight);
+
+    // about.scrollTop = about.clientHeight;
+    const height = about.clientHeight;
     
-    document.querySelector('body').click();
+    // body.scrollBy(0, height);
+    // document.querySelector('body').click();
     // body.click();
 });
 

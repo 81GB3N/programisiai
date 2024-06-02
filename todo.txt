@@ -1,11 +1,8 @@
-- same size vedeju pictures
 - add zigzag and social hrefs
-- test out
 - make and add full plan
 - slide pictures
-- pakoreguot tekstus ir ju fontus
+- pakoreguot tekstus
 - padaryt registravimosi forma
+- padaryt kad veiktu daugiau mygtukas
+- pridet melyna meskina
 
------- mobile done
-
---make PC version work
