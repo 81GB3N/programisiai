@@ -491,9 +491,7 @@ ul.email li i {
      left: 10%;
 }
 
-#carouselExampleIndicators .carousel-control-next:focus,
 #carouselExampleIndicators .carousel-control-next:hover,
-#carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
      background-color: #f0390f;
      color: #fff;
@@ -1632,12 +1630,6 @@ img.resize{
      }
 }
 
-.uzsisakykit-text{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-
 .uzsisakykit-text span{
      color: rgb(0, 157, 255);
      font-size: 1.3rem;
@@ -1695,4 +1687,14 @@ img.resize{
      justify-content: center;
      align-items: start;
      flex-direction: column;
+}
+
+.uzsisakykit-text{
+     text-align: center;
+}
+
+.phone-numbers{
+     display: flex;
+     flex-direction: column;
+     gap: 3px;
 }
