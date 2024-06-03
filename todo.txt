@@ -1,6 +1,2 @@
-- add zigzag and social hrefs
-- add full plan
-- slide pictures
-- padaryt registravimosi forma
-- ig ir fb posts
+- add zigzag
 

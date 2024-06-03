@@ -500,7 +500,7 @@ ul.email li i {
 }
 
 .banner_img {
-     padding-right: 50px;
+     padding-left: 30%;
 }
 
 .banner_img figure {
@@ -1212,7 +1212,7 @@ footer .container{
 
 .read_more_order:hover{
      color: #18a1cae8;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 800;
      letter-spacing: 1px;
 }
@@ -1253,23 +1253,9 @@ header{
      padding: 0;
 }
 
-.about-controls{
-     /* display: flex;
-     justify-content: start;
-     align-items: center; */
-     position: relative;
-     left: -10px;
-}
 
 .col-md-12{
      padding-left: 30px;
-}
-
-.our-pictures{
-     /* height: clamp(200px, 100%, 400px); */
-     /* width: 600px; */
-     /* zoom: 50%; */
-     /* object-fit:; */
 }
 
 .picture-container{
@@ -1281,9 +1267,6 @@ header{
      /* width: ; */
 }
 
-/* img{
-     display: none;
-} */
 
 .center{
      display: flex;
@@ -1320,7 +1303,7 @@ header{
      }
 
      .read_more_about{
-          left: 30px;
+          /* left: 30px; */
      }
 
      /* .Kontaktai>.informa {
@@ -1348,17 +1331,12 @@ h3 .slide-text-titles{
      font-size: 10px;
 }
 
-/* @media(max-width: 500px){
-     .slide-text-titles{
-          font-size: 5px;
-     }
-} */
-
 .link_btn_about{
      padding-top: 50px;
      height: auto;
      display: flex;
-     align-items: center;
+     align-items: start;
+     justify-content: start;
      gap: 5px;
 }
 
@@ -1370,7 +1348,7 @@ h3 .slide-text-titles{
 }
 
 .read_more_order{
-     padding: 10px;
+     /* padding: 10px; */
      margin-bottom: 40px;
 }
 
@@ -1471,9 +1449,9 @@ h3 .slide-text-titles{
      justify-content: center;
      align-items: center;
 }
-/* img.resize{
-     max-width: 900px;
-} */
+img.resize{
+     max-width: 80%;
+} 
 
 .musu-stovykla-inside{
      display: grid;
@@ -1690,4 +1668,31 @@ h3 .slide-text-titles{
      justify-content: center;
      align-items: center;
      gap: 5px;
+}
+
+.sutartis-dv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+}
+
+.planas-dv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+}
+
+.planas-a{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.texts{
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     flex-direction: column;
 }
