@@ -1698,3 +1698,40 @@ img.resize{
      flex-direction: column;
      gap: 3px;
 }
+
+.old-price{
+     color: red;
+}
+
+header{
+     /* height: 10%; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+}
+
+header h1{
+     font-size: 4rem;
+     font-weight: 700;
+     text-align: center;
+     color: #1c67d8e8;
+}
+
+@media(max-width: 1200px){
+     header h1{
+          font-size: 3rem;
+      }    
+}
+
+@media(max-width: 650px){
+     header{
+          color: white;
+          padding: 0;
+          width: 0;
+     }
+
+     header h1{
+          font-size: 0.01rem;
+     }
+}

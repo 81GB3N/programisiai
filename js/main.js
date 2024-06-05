@@ -15,3 +15,8 @@ uzsisakyk.addEventListener('click', function() {
     uzsakyti_button.scrollIntoView({behavior: "smooth"});
 
 });
+
+const title = document.querySelector('title');
+document.addEventListener('DOMContentLoaded', ()=> {
+    title.innerText = "Programisiai";
+});
